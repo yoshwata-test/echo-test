@@ -1,0 +1,5 @@
+jobs:
+  main:
+    image: node:22
+    steps:
+      - echo: echo hoge
