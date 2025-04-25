@@ -1,5 +1,6 @@
 jobs:
   main:
     image: node:22
+    requires: [ ~pr, ~commit ]
     steps:
       - echo: echo hoge
