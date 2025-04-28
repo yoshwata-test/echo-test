@@ -4,4 +4,4 @@ jobs:
     requires: [ ~pr, ~commit ]
     steps:
       - echo: echo hoge
-      - sleep: sleep 500
+      - sleep: sleep 30
