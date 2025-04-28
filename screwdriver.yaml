@@ -3,6 +3,6 @@ jobs:
     image: node:22
     requires: [ ~pr, ~commit ]
     steps:
-      - echo: echo hoge
+      - echo: echo hoge && sleep 10
       - fail: gyaa
       - sleep: sleep 30
